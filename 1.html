@@ -2,9 +2,86 @@
 <html>
     <head>
         <meta charset = "UTF-8">
-        <title>제목1</title>
+        <title></title>
+        <style>
+
+          header {
+            width: 100%; height: 100px; background: rgb(251, 141, 200);
+          }
+          nav {
+            width: 20%; height: 7000px; float:left; background: rgb(255, 170, 244);
+          }
+          section {
+            width: 80%; height: 7000px; float:left; background: rgb(255, 227, 242);
+          }
+        </style>
     </head>
     <body>
-        안녕 안녕
+        <header style="text-align: center;">
+            <h1>BangYeoSa</h1>       
+        </header>
+        <nav>
+        <h2>목차</h2>
+        <a href="#chap1">1. 캐릭터 소개<br><br></a>
+        <a href="#chap2">2. OGQ 마켓<br><br></a>
+        <a href="#chap3">3. 공모전<br><br></a>
+        </nav>
+        <section>
+          <br>
+          📞 HP : 010-1234-5678<br>
+          ✉ Email : leecss2@naver.com<br><br>
+          <h3>👉👉👉<a href="https://ogqmarket.naver.com/creators/%EB%B0%A9%EC%97%AC%EC%82%AC">방여사의 OGQ 마켓 바로가기</a>👈👈👈</h3>
+          <hr>
+
+        <h2 id="chap1">캐릭터 소개</h2>
+        <ul>
+          <li><h3>빵아지</h3></li>
+          <img src="data:image/png;base64,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" width="150" height="150"><br>
+          '멜<b>빵</b>을 입은 강<b>아지</b>' 라는 뜻에서 따온 이름입니다. 비숑 강아지를 본따서 만든 캐릭터입니다. 감정 표현을 확실히 하는 특징이 있습니다.
+
+          <li><h3>빵지와 똥지</h3></li>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyGw1jqbRTzeDBKUUYy8nlRM51jBhP0nZbEQ&s" width="150" height="150"><br>
+          빵지와 똥지는 커플 강아지 캐릭터입니다. 빵지는 여자, 똥지는 남자 캐릭터입니다.
+        </ul>
+        <br><br><br>
+        <h2 id="chap2">OGQ 마켓</h2>
+        <mark>스티커 1. 블로거 빵아지의 일상<br></mark>
+        <iframe src="https://naver.me/FTqc3EJE" width="500" height="500"></iframe><br><br>
+
+        <mark>스티커 2. 빵지의 다정한 메시지<br></mark>
+        <iframe src="https://naver.me/5UE7UcQq" width="500" height="500"></iframe><br><br>
+
+        <mark>스티커 3. 빵지는 덕질 중<br></mark>
+        <iframe src="https://naver.me/GNv0nrLf" width="500" height="500"></iframe><br><br>
+
+        <mark>스티커 4. 빵지의 맛집 리뷰<br></mark>
+        <iframe src="https://naver.me/50ejWs84" width="500" height="500"></iframe><br><br>
+
+        <mark>스티커 5. 블로거 빵아지의 일상2<br></mark>
+        <iframe src="https://naver.me/5rZITfqd" width="500" height="500"></iframe><br><br>
+
+        <mark>스티커 6. 빵지와 똥지의 구분선<br></mark>
+        <iframe src="https://naver.me/xhKYEBD5" width="500" height="500"></iframe><br><br>
+
+        <h3>⚡마음에 드는 스티커에 투표하세요!⚡</h3>
+        <form>
+          <input type="radio" value="1">
+          블로거 빵아지의 일상<br>
+          <input type="radio" value="2">
+          빵지의 다정한 메시지<br>
+          <input type="radio" value="3">
+          빵지는 덕질 중<br>
+          <input type="radio" value="4">
+          빵지의 맛집 리뷰<br>
+          <input type="radio" value="5">
+          블로거 빵아지의 일상2<br>
+          <input type="radio" value="6">
+          빵지와 똥지의 구분선<br><br>
+        </form>
+
+        <h2 id="chap3">공모전</h2>
+        2023 소래포구 축제 그림 공모전 입선<br>
+        <img src="https://allforyoung-homepage-maycan.s3.ap-northeast-2.amazonaws.com/uploads/post_photos/2023/07/26/b14c2b3c1ad648f9acd47ec8b3a4f1b8.jpg"></a>
+        </section>
     </body>
 </html>
