@@ -1,0 +1,36 @@
+table {
+    width : 210px;
+    table-layout : fixed;
+    border-radius : 20px;
+    padding : 15px;
+    background-color : black;
+}
+
+td {
+
+    text-align : center;
+    color : white;
+    border-radius : 50%;
+    padding : 10px;
+}
+
+.gray {
+    background-color : rgb(194, 194, 194);
+    color : rgb(34, 34, 34);
+}
+
+.gray2{
+    background-color : rgb(103, 103, 103);
+}
+
+.yellow {
+    background-color : rgb(255, 180, 29);
+}
+
+#rect {
+    border-radius : 40%;
+}
+
+#result {
+    text-align : right;
+}
