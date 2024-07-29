@@ -1,0 +1,23 @@
+ .batteryLevel {
+    width: 200px;
+    height: 30px;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+  }
+
+  .clock {
+    width: 400px;
+    height: 80px;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+  }
+
+  .alarm {
+    width: 400px;
+    height: 80px;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+  }

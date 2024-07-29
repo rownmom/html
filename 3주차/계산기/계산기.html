@@ -6,42 +6,40 @@
         <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
-        <script src = "javascript.js"></script>
         <table border = "0">
             <tr>
-                <td class="calculator_result" colspan = "4">123,456</td>
+                <td class="calculator_result" colspan = "4"></td>
             </tr>
             <tr>
-                <td class="btn_gray">C</td>
+                <td class="btn_gray" id="C">C</td>
                 <td class="btn_gray">+/-</td>
-                <td class="btn_gray">%</td>
-                <td class="btn_yellow">/</td>
+                <td class="btn_yellow" id="%">%</td>
+                <td class="btn_yellow" id="/">/</td>
             </tr>
             <tr>
                 <td class="btn_gray2">7</td>
                 <td class="btn_gray2">8</td>
                 <td class="btn_gray2">9</td>
-                <td class="btn_yellow">x</td>
+                <td class="btn_yellow" id="x">x</td>
             </tr>
             <tr>
                 <td class="btn_gray2">4</td>
                 <td class="btn_gray2">5</td>
                 <td class="btn_gray2">6</td>
-                <td class="btn_yellow">-</td>
+                <td class="btn_yellow" id="-">-</td>
             </tr>
             <tr>
                 <td class="btn_gray2">1</td>
                 <td class="btn_gray2">2</td>
                 <td class="btn_gray2">3</td>
-                <td class="btn_yellow">+</td>
+                <td class="btn_yellow" id="+">+</td>
             </tr>
             <tr>
                 <td class="btn_gray2" class="btn_rect" colspan="2">0</td>
                 <td class="btn_gray2">.</td>
-                <td class="btn_yellow">=</td>
+                <td class="btn_yellow" id="=">=</td>
             </tr>
-
         </table>
-
+        <script src = "javascript.js"></script>
     </body>
 </html>
